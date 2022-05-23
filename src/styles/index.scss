@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+@import "components/common";
+@import "components/navigation";
+@import "components/calsci";
+@import "components/modal";
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
